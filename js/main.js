@@ -4,7 +4,7 @@ $(function(){
     $('#main_gnb').mouseover(function(){
         $('#sub_gnb').slideDown();
     });
-    $('section, .sub_1, .sub_2, .sub_3_img').mouseover(function(){
+    $('section, .sub_1, .sub_2, .sub_3, .sub_3_img').mouseover(function(){
         $('#sub_gnb').slideUp();
     });
 
